@@ -1,0 +1,55 @@
+#login_img
+{
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+#login_main
+{
+  display: flex;
+  height: 100%;
+  width: 50%;
+  z-index: 10000;
+  margin-top: -30%;
+  margin-left: 60%;
+}
+#Login_btn
+{
+  border-radius: 8px;
+  border-width: 0cm;
+  background-color: blue;
+  color: white;
+  font-weight: 900;
+  height: 30px;
+  width: 150px; 
+  font-size: large;
+  margin-top: 20px;
+  text-overflow: 1px;
+}
+#Login_text
+{
+  font-weight: 900;
+  font-size: 70px;
+}
+#Login_btn:hover
+{
+  border-radius: 8px;
+  border-width: 0cm;
+  background-color: blue;
+  color: white;
+  font-weight: 900;
+  height: 30px;
+  width: 150px; 
+  font-size: large;
+  margin-top: 20px;
+  transition: 0.25s;
+  border-radius: 0px;
+  border-width: 0cm;
+  background-color: rgb(93, 93, 250);
+  color: white;
+  font-weight: 900;
+  height: 40px;
+  width: 175px; 
+  font-size: large;
+  margin-top: 20px;
+}
